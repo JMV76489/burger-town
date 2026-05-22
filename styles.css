@@ -8,13 +8,22 @@
     color: blue;
 }
 
-.img-burger {
-    max-width: 50%;
-    border-radius: 4px;
+.img-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.header-rice:hover ~ .header-burger {
+.img-burger {
+    max-width: 40%;
+    border-radius: 4px;
+}
+
+.header-rice:active:target {
     color: green;
+    cursor: pointer;
+}
+
+:target {
+    color: peru;
 }
